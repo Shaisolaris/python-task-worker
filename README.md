@@ -1,5 +1,7 @@
 # python-task-worker
 
+![CI](https://github.com/Shaisolaris/python-task-worker/actions/workflows/ci.yml/badge.svg)
+
 Celery task worker system with Redis broker, task routing across 4 queues, retry with exponential backoff, scheduled tasks via Beat, dead letter handling, rate limiting, and a FastAPI monitoring dashboard. Includes email, data processing, notification, and maintenance task modules.
 
 ## Stack
