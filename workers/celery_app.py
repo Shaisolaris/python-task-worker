@@ -57,8 +57,6 @@ app.conf.update(
         "tasks.cleanup_tasks.*": {"queue": "maintenance"},
     },
 
-    # Dead letter queue
-    task_reject_on_worker_lost=True,
 
     # Beat schedule
     beat_schedule={
